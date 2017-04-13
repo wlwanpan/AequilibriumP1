@@ -20,7 +20,8 @@
 		   Example: [9, 0, 0, 0, 0, 9] can fit 2 castle at index of [1-2] and [3-4].
 
 		note: For a piece of land to be considered as a valley or peak, it must 
-			  have a minimum height of, minPeakValHeight [default set to 2].
+		      have a minimum height of, minPeakValHeight [default set to 2].
+		      And the piece of land must be a positive integer.
 
 */
 
@@ -55,7 +56,7 @@ function CastleCalc (landArr) {
         		)		
         		// check if a castle can fit in. If so, finalCastleCount is updated and
         		// prevPointer and count is reset.
-				if (count >= minCastleSize-1) {
+				if (count >= minCastleSize-1 && prevPointer > 0) {
 
 					finalCastleCount++;
 					prevPointer = -1;
@@ -67,7 +68,7 @@ function CastleCalc (landArr) {
 	// Throw an error stating wrong input type
 	} else {
 
-		throw new Error(`Input should be an array not: {typeof(landArr)}`);
+		throw new Error(`Input should be an array not: ${typeof(landArr)}`);
 
 	}
 }
