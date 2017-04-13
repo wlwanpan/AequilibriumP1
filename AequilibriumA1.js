@@ -81,3 +81,4 @@ expect(CastleCalc([9, 5, 6, 5, 9])).toBe(0); // Cannot accomodate any castle
 expect(CastleCalc([5, 5, 6, 9, 1])).toBe(1); // 1 castle at index 0-1
 expect(CastleCalc([5, 5, 5, 5, 9])).toBe(2); // 2 castles at index 0-1 and 2-3
 expect(CastleCalc([5, 5, 9, 5, 5])).toBe(2); // 2 castles at index 0-1 and 3-4
+
