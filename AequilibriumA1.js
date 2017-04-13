@@ -45,7 +45,6 @@ function CastleCalc (landArr) {
 			
 			var prevPointer = -1;
 			var count = 0;
-			var tmpArr = [];
 			// Iterate through land array
 			for (var i = 0; i < landSize; i++) {
 				// increment count if 2 or more consecutive lands are of 
