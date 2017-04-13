@@ -12,7 +12,6 @@
 * For Quality aesthetics, each castle must either:
 		
 	1. Be built on a peak. Example: [1, 7, 7, 2] can build a castle at index of [1-2].
-
 	2. Be built in between valleys. Example: [7, 6, 0, 0] can build castle at index of [2-3].
 
 * There can be multiple castle in a peak/valley, example:
