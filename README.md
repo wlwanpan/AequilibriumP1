@@ -2,12 +2,12 @@
 
 ## Assumptions: 
   
-* Each castle require a minimum amount of land to be built on according to the minimum castle size, **minCastleSize**[default set to 2].
+* Each castle require a minimum amount of land to be built on according to the minimum castle size, **minCastleSize** [default set to 2].
 
 * Each castle can only be built on a levelled ground, example:
 
 	1. [0, 2, 2, 2] can only be built from index 1 to 3.
-	2.[1, 2, 3, 4] no castle can be build on these land.
+	2. [1, 2, 3, 4] no castle can be build on these land.
 
 * For Quality aesthetics, each castle must either:
 		
