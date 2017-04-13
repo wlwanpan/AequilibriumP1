@@ -6,9 +6,9 @@
 
 	2) Each castle can only be built on a levelled ground: 
 	   Example: [0, 2, 2, 2] can only be built from index 1 to 3.
-	   			[1, 2, 3, 4] no castle can be build on these land.
+	   	    [1, 2, 3, 4] no castle can be build on these land.
 
-	4) For Quality aesthetics, each castle mush either:
+	3) For Quality aesthetics, each castle mush either:
 		
 		1) Be built on a peak. 
 		   Example: [1, 7, 7, 2] can build a castle at index of [1-2].
