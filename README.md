@@ -1,6 +1,6 @@
-#Aequilibrium Part 1
+# Aequilibrium Part 1
 
-##Assumptions: 
+## Assumptions: 
   
 	1) Each castle require a minimum amount of land to be built on 
 	   according to the minimum castle size, minCastleSize[default set to 2].
