@@ -53,7 +53,7 @@ function CastleCalc (landArr) {
 				count = landArr[i] === prevPointer ? count + 1 : (
 					prevPointer = landArr[i],
 					0 
-        		)		
+        			);		
         		// check if a castle can fit in. If so, finalCastleCount is updated and
         		// prevPointer and count is reset.
 				if (count >= minCastleSize-1 && prevPointer > 0) {
