@@ -19,4 +19,4 @@
 	1. [9, 0, 0, 0, 0, 9] can fit 2 castle at index of [1-2] and [3-4].
 	2. [0, 8, 8, 8, 8, 5] can fit 2 castle at index of [1-2] and [3-4].
 
-Note: For a piece of land to be considered as a valley or peak, it must have a minimum height of, **minPeakValHeight** [default set to 2]. And no must be a positive interger.
+Note: For a piece of land to be considered as a valley or peak, it must have a minimum height of, **minPeakValHeight** [default set to 2]. And the piece of land must be a positive interger.
